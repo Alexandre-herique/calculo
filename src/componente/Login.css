@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url(../img/beautiful-grayscale-shot-of-snowy-rocky-mountains.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   
+}
+
+.card1 { 
+
+    border: 3px solid #000;
+    border-radius: 0 40px;
+    color: #fff;
+    background-color: rgba(0,0,5,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 28px;
+}
+
+.card1 h1 {
+    margin-bottom: 15px;
+    text-align: center;
+
+
+}
+
+.card1 form h3 {
+    margin: 20px 0 ;
+}
+
+.card1 form button {
+    margin: 20px 25%;    
+    width: 100px;
+
+}
